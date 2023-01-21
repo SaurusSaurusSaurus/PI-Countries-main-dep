@@ -1,0 +1,21 @@
+.activity_detail_card {
+    padding: 30px;
+    position: relative;
+    display:block;
+    height:180px; /* 100%*/
+    width: 180px; /* 20rem*/
+    margin: auto ;
+    border-radius: calc(var(--curve)*1px);
+    overflow: hidden;
+    background-image: url("https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif");
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.activity_detail_card h3 {
+    margin-bottom: 30px;
+}
+.activity_detail_card h5 {
+    padding: 5px;
+    font-size: 15px;
+}

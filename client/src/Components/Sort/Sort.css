@@ -1,0 +1,31 @@
+.sort_body {
+    height: 50px;
+    width: 100%;
+    font-weight:100;
+    font-size:14px;
+    line-height: 1.5;
+    background-color: rgb(177, 171, 171);
+    display: flex;
+    padding: 0 40px ;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.sort_body label {
+    color:rgb(67, 69, 69);
+    font-weight: lighter;
+}
+.sort_body select {
+    border-radius: 10px;
+    margin: 0;
+    height: 2.5em;
+    padding: 0 1.0em;
+    line-height: 1.5;
+    background-color: #f4f2f2;
+    width:9.5em;
+    display: block;
+    font-size: small;
+    transition: all ease-in-out .5s;
+    margin-right:3rem;
+}

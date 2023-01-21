@@ -1,0 +1,66 @@
+.button_back{
+  background-color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 48px;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+  margin-top: 20px;
+}
+.button_back:hover {
+  background: #0f62f2;
+  color: #fdfdfd;
+}
+.button_back:focus {
+  outline: none;
+  border: 2px solid #1e232b;
+}
+.activity_card{
+    text-align: center;
+    background: #fff;
+    border: 20px solid #fff;
+    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    overflow: hidden;
+    position: relative; 
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    margin: 3rem 5vw;
+    padding: 0;
+    list-style-type: none;
+}
+.activity_card_text{
+    text-align: center;
+    position: relative;
+    justify-content: space-around;
+}
+.activity_card_text h2 {
+    font-size: 50px ;
+    margin-top:-30px;
+    font-weight: 500;
+}
+.activity_card_text p {
+  color: rgb(101, 102, 119);
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}

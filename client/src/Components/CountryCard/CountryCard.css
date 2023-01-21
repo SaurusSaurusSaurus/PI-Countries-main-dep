@@ -1,0 +1,61 @@
+:root { /*#*/
+    --surface-color: #fff;
+    --curve: 40;
+}
+.country_card_body {
+  position: relative;
+  align-items: center;
+  display:block;
+  width: 250px; 
+  height:290px; 
+  margin: auto ;
+  border-radius: 21px;
+  overflow: hidden;
+  background-color: #0e96da;
+  background-image: linear-gradient(45deg, #1ff4b4 0%, #f4ee3b 100%);
+  text-decoration: none;
+  text-align: center; 
+}
+
+.country_card_img {
+    position: relative;
+    height: 10em;
+}
+.country_card_img img {
+    width: 70%;
+    height: 70%;
+    margin-top: 30px;
+    border-radius:5px;
+}
+
+.country_card_title {
+    font-size: 20px;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.country_card_continent {
+    font-size: 15px;
+    color: #635e5e;
+    margin-bottom: 15px;
+}
+.country_card_button {
+   text-decoration: none;
+   background-color: #4cb27c;
+   background-image: linear-gradient(45deg, #47f598 0%, #e4de2b 100%);
+   border-radius: 15px;
+   border: 2px solid rgb(255, 255, 255);
+   color: #ffffff;
+   height: 40px;
+   overflow: hidden;
+   padding: 16px;
+   font-size: 15px;
+   
+}
+
+.country_card_button:hover {
+  cursor: pointer;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
