@@ -9,7 +9,7 @@ import CountryDetail from './Components/CountryDetail/CountryDetail';
 import CreateActivity from './Components/CreateActivity/CreateActivity';
 import ActivityCard from './Components/ActivityCard/ActivityCard';
 import axios from "axios";
-axios.defaults.baseURL="http://localhost:3001/api"
+axios.defaults.baseURL="https://pi-countries-main-dep-production.up.railway.app/"
 function App() {
   return (
     <>
