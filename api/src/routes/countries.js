@@ -2,13 +2,13 @@ const { Router } = require('express');
 const {Op} = require('sequelize');
 const axios = require('axios')
 const {Countries, Activities} = require('../db');
-
-
+require('dotenv').config();
+const {API_KEY} = process.env
 const router = Router();
 
 const getInfoAPI = async ()=>{
     try {
-        const API = await axios.get('https://restcountries.com/v3/all');
+        const API = await axios.get(API_KEY);
         const data = await API.data.map((country)=>{
             return {
                 id: country.cca3,
